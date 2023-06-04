@@ -19,18 +19,21 @@
 
 }
 
-.fb-signup img {
-  margin-right: 14px;
-}
+
 
 .fb-signup {
   display: flex;
+  align-items: center;
   margin-right: 25px;
   padding: 14px;
   margin-top: 23px;
   border: 2px solid #144E49;
   border-radius: 10px;
   cursor: pointer;
+}
+.fb-signup i{
+    color:#3b5998;
+    margin-right: 14px;
 }
 
 .or {
@@ -64,7 +67,7 @@
   display: none;
 }
 
-.language ul:hover {
+.language:hover ul{
   display: block !important;
 }
 
@@ -120,14 +123,5 @@ button {
 }
 .nav-login > a{
   color: #144E49;
-  font-weight: 700;
-}
-/*.nav-login {
-  color: var(--primary);
-  text-align: center;
-  margin-top: 30px;
-}
-.nav-login > a {
-  color: var(--primary);
   font-weight: 700;
 }
