@@ -1,0 +1,44 @@
+
+body{
+  background-color:#144E49;
+  overflow: hidden;
+  ;
+}
+main{
+  display: flex;
+}
+
+.left {
+ flex-basis: 40%;
+  padding: 10px;
+  
+}
+.right{
+  flex-basis: 60%;
+  background-color: white;
+  height: 744px;
+  padding: 25px;
+  border-radius: 70px 0 0 70px;
+}
+h1{
+  color: white;
+  margin: 10px;
+  font-style: normal;
+  font-family : 'Poppins';
+   
+}
+.right h3{
+  margin-top: 103px;
+  margin-left: 189px;
+  font-size: 32px;
+  color: #144E49;
+}
+
+  .sketch {
+    margin-left: 237px;
+    z-index: 1;
+    position: relative;
+  }
+  
+
+  
